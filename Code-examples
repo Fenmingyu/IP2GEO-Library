@@ -1,0 +1,9 @@
+Usage:
+
+- Sina api usage:
+  $ipInfos_sina = IP2Geo::getGeoBySina('123.125.114.144'); //baidu.com IP地址
+  var_dump($ipInfos_sina);
+- Taobao api usage:
+  $ipInfos_taobao = IP2Geo::getGeoByTaobao('124.125.124.142'); //baidu.com IP地址
+  $ipInfos_taobao = IP2Geo::getGeoByTaobao(); //我的IP地址
+  var_dump($ipInfos_taobao)
